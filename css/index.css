@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#8ecae6, #9198e5)
+}
+
+header {
+    padding: 1rem;
+    width: 100%;
+    border-bottom: solid 3px black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 4px rgb(98, 98, 98);
+}
+
+
+h2 {
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px rgb(98, 98, 98);
+    padding: 2rem;
+}
+
+main {
+    width: 100%;
+    height: 60%;
+
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    width: 50%;
+    height: 40%;
+
+
+    border: solid 3px black;
+    border-radius: 30px;
+    background: rgba(245, 245, 245, 0.229);
+
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+    font-style: none;
+    color: black;
+}
+
+.box:hover {
+    background: rgba(245, 245, 245, 0);
+    /* Make a smoother animation  */
+}
